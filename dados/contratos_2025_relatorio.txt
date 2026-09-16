@@ -1,0 +1,57 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - CONTRATOS
+============================================================
+
+Data/Hora: 2026-09-12 13:21:25
+Total de registros: 7479
+Tamanho em memória: 6.19 MB
+
+COLUNAS:
+------------------------------------------------------------
+  anoInicioVigencia: int64 (0 nulos)
+  registroCge: str (920 nulos)
+  numeroContrato: str (0 nulos)
+  numeroProcessoLicitacao: str (2484 nulos)
+  nomeOrgao: str (0 nulos)
+  siglaOrgao: str (0 nulos)
+  codigoOrgao: str (1097 nulos)
+  municipio: str (10 nulos)
+  objeto: str (0 nulos)
+  objetoComplemento: str (0 nulos)
+  contratado: str (0 nulos)
+  cnpjCpf: str (0 nulos)
+  dataAssinatura: str (0 nulos)
+  dataPublicacao: str (82 nulos)
+  dataInicioVigencia: str (0 nulos)
+  dataTerminoVigencia: str (0 nulos)
+  valorOriginal: float64 (0 nulos)
+  valorAditivos: float64 (0 nulos)
+  valorApostilas: float64 (0 nulos)
+  valorTotal: float64 (0 nulos)
+  emergencial: str (0 nulos)
+  urlContrato: str (0 nulos)
+  aditivo: str (0 nulos)
+  nomeGestor: str (0 nulos)
+  matriculaGestor: str (0 nulos)
+  cpfGestor: str (399 nulos)
+  dataPortaria: str (448 nulos)
+  numeroPortariaGestor: str (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+        anoInicioVigencia registroCge numeroContrato numeroProcessoLicitacao                            nomeOrgao    siglaOrgao codigoOrgao    municipio   objeto objetoComplemento           contratado             cnpjCpf dataAssinatura dataPublicacao dataInicioVigencia dataTerminoVigencia  valorOriginal  valorAditivos  valorApostilas    valorTotal emergencial                                               urlContrato aditivo                     nomeGestor matriculaGestor       cpfGestor dataPortaria numeroPortariaGestor
+count              7479.0        6559           7479                    4995                                 7479          7479        6382         7469     7479              7479                 7479                7479           7479           7397               7479                7479   7.479000e+03   7.479000e+03    7.479000e+03  7.479000e+03        7479                                                      7479    7479                           7479            7479            7080         7031                 7479
+unique                NaN        5573           2659                    2365                                  105           109          93          362     2687              3581                 3517                2863            287            356                282                 899            NaN            NaN             NaN           NaN           2                                                      6287    1299                            881             936             855          394                 1131
+top                   NaN  26-21067-4     00001/2025      19.000.000034.2024  SECRETARIA DE ESTADO DA SAUDE - SES  SES - 252201      253601  JOÃO PESSOA  DOAÇÕES                    UNI HOSPITALAR LTDA  07.484.373/0001-24     2025-02-20     2025-06-13         2025-02-20          2025-12-31            NaN            NaN             NaN           NaN         NÃO  https://pncp.gov.br/app/contratos/08778268000160/2025/51      []  JEFFERSON JOSÉ ARRUDA DE LIMA       181.737-0  ***.008.629-**   2025-05-30            0090/2025
+freq                  NaN           2             51                      38                                 2168          1084        1100         3761      298              1500                  141                 144             79            233                 78                 834            NaN            NaN             NaN           NaN        6248                                                         3    5880                           1061            1060            1052          679                  608
+mean               2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   7.169366e+05   1.556265e+05    6.968488e+03  8.795316e+05         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+std                   0.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   4.319148e+06   2.905219e+06    3.128562e+05  6.434288e+06         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+min                2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   0.000000e+00  -1.639284e+06   -8.628834e+05  0.000000e+00         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+25%                2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   6.996000e+03   0.000000e+00    0.000000e+00  7.011300e+03         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+50%                2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   3.602400e+04   0.000000e+00    0.000000e+00  3.714000e+04         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+75%                2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   1.800000e+05   0.000000e+00    0.000000e+00  1.853950e+05         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+max                2025.0         NaN            NaN                     NaN                                  NaN           NaN         NaN          NaN      NaN               NaN                  NaN                 NaN            NaN            NaN                NaN                 NaN   1.800150e+08   1.437635e+08    2.665017e+07  2.585341e+08         NaN                                                       NaN     NaN                            NaN             NaN             NaN          NaN                  NaN
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!

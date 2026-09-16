@@ -1,0 +1,41 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - ATAS
+============================================================
+
+Data/Hora: 2026-09-13 19:05:54
+Total de registros: 2500
+Tamanho em memória: 0.68 MB
+
+COLUNAS:
+------------------------------------------------------------
+  ano: int64 (0 nulos)
+  mes: int64 (0 nulos)
+  numeroProcesso: str (0 nulos)
+  nomeOrgao: str (0 nulos)
+  objeto: str (0 nulos)
+  tipoProcesso: str (0 nulos)
+  modalidade: str (161 nulos)
+  tipoJulgamento: str (161 nulos)
+  situacao: str (161 nulos)
+  dataCriacao: str (0 nulos)
+  valorLicitado: float64 (161 nulos)
+  linkDocumentoAta: str (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+           ano         mes      numeroProcesso                      nomeOrgao objeto tipoProcesso         modalidade tipoJulgamento    situacao dataCriacao  valorLicitado linkDocumentoAta
+count   2500.0  2500.00000                2500                           2500   2500         2500               2339           2339        2339        2500   2.339000e+03             2500
+unique     NaN         NaN                2500                            159   1394            2                  2              3           4         246            NaN              163
+top        NaN         NaN  25.203.038930.2025  SECRETARIA DE ESTADO DA SAÚDE    ...   UTILIZAÇÃO  PREGÃO ELETRÔNICO    MENOR PREÇO  FINALIZADA  2025-02-12            NaN                 
+freq       NaN         NaN                   1                            636    161         1727               1938           1932        1132          49            NaN             2338
+mean    2025.0     6.08560                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   4.148748e+05              NaN
+std        0.0     3.31944                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   2.624233e+06              NaN
+min     2025.0     1.00000                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   0.000000e+00              NaN
+25%     2025.0     3.00000                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   3.300000e+03              NaN
+50%     2025.0     6.00000                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   1.457160e+04              NaN
+75%     2025.0     9.00000                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   6.726923e+04              NaN
+max     2025.0    12.00000                 NaN                            NaN    NaN          NaN                NaN            NaN         NaN         NaN   3.613107e+07              NaN
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!

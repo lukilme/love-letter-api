@@ -1,0 +1,59 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - SERVIDORES
+============================================================
+
+Data/Hora: 2026-09-12 12:40:02
+Total de registros: 1200
+Tamanho em memória: 0.54 MB
+
+COLUNAS:
+------------------------------------------------------------
+  anoExercicio: int64 (0 nulos)
+  mesReferencia: int64 (0 nulos)
+  periodo: int64 (0 nulos)
+  nomeServidor: str (0 nulos)
+  cpfServidor: str (0 nulos)
+  matricula: str (0 nulos)
+  dataAdmissao: str (0 nulos)
+  sexo: str (0 nulos)
+  deficienteFisico: str (0 nulos)
+  administracao: str (0 nulos)
+  tipoCargo: str (0 nulos)
+  nomeCargo: str (0 nulos)
+  situacaoServidor: str (0 nulos)
+  regimeContratual: str (0 nulos)
+  cargaHorariaServidor: str (0 nulos)
+  escolaridadeMinimaCargo: str (0 nulos)
+  cnpjOrgao: str (2 nulos)
+  orgaoLotacao: str (0 nulos)
+  nomeUnidadeTrabalho: str (0 nulos)
+  siglaPoder: str (0 nulos)
+  nomeOrgaoDisposicao: str (1071 nulos)
+  vantagemFixa: float64 (0 nulos)
+  vantagemVariavel: float64 (0 nulos)
+  valorRedutor: float64 (0 nulos)
+  valorBruto: float64 (0 nulos)
+  valorPrevidenciario: float64 (0 nulos)
+  valorIr: float64 (0 nulos)
+  descontoObrigatorio: float64 (0 nulos)
+  valorDesconto: float64 (0 nulos)
+  valorLiquido: float64 (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+        anoExercicio  mesReferencia        periodo           nomeServidor     cpfServidor matricula dataAdmissao       sexo deficienteFisico         administracao      tipoCargo  nomeCargo situacaoServidor regimeContratual cargaHorariaServidor escolaridadeMinimaCargo       cnpjOrgao                  orgaoLotacao nomeUnidadeTrabalho siglaPoder nomeOrgaoDisposicao  vantagemFixa  vantagemVariavel  valorRedutor     valorBruto  valorPrevidenciario       valorIr  descontoObrigatorio  valorDesconto   valorLiquido
+count         1200.0    1200.000000    1200.000000                   1200            1200      1200         1200       1200             1200                  1200           1200       1200             1200             1200                 1200                    1200            1198                          1200                1200       1200                 129   1200.000000       1200.000000   1200.000000    1200.000000          1200.000000   1200.000000          1200.000000    1200.000000    1200.000000
+unique           NaN            NaN            NaN                    103             103       115           95          2                1                     2             13         52                3                5                    2                       3              18                            19                  77          2                  10           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+top              NaN            NaN            NaN  ABDIAS FREIRE BARRETO  ***.435.414-**   9255982   2019-01-01  MASCULINO              NÃO  ADMINISTRAÇÃO DIRETA  EFETIVO ATIVO  PROFESSOR            ATIVO      ESTATUTARIO    40 HORAS SEMANAIS                SUPERIOR  06121067000160  PARAIBA PREVIDENCIA - PBPREV  PBPREV APOSENTADOS        EXE                 DER           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+freq             NaN            NaN            NaN                     24              24        12           70        981             1200                  1032            359        126              754              818                 1033                     756             422                           422                 251       1032                  48           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+mean          2025.0       6.500000  202506.500000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   7193.917567       2111.094067      9.405350    9305.011633           586.020942    996.570358          1582.591300    1591.996650    7713.014983
+std              0.0       3.453492       3.453492                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   8059.370033       5582.698558    134.084463    9727.298109           865.387085   2110.511398          2691.424508    2720.691849    7384.736913
+min           2025.0       1.000000  202501.000000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN      0.000000          0.000000      0.000000     182.150000             0.000000      0.000000             0.000000       0.000000     182.150000
+25%           2025.0       3.750000  202503.750000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   2561.330000          0.000000      0.000000    3692.280000             0.000000      0.000000           185.470000     185.470000    3484.450000
+50%           2025.0       6.500000  202506.500000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   5269.175000         37.830000      0.000000    6233.110000           335.280000    177.510000           623.345000     623.345000    5415.120000
+75%           2025.0       9.250000  202509.250000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   7469.870000       1748.065000      0.000000   10054.790000           752.330000    806.242500          1662.110000    1662.110000    8767.730000
+max           2025.0      12.000000  202512.000000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  50434.170000      92162.360000   2361.070000  108090.360000          5284.970000  13945.430000         17858.830000   17858.830000  103835.920000
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!

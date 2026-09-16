@@ -1,0 +1,44 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - LIQUIDACOES
+============================================================
+
+Data/Hora: 2026-09-13 20:53:08
+Total de registros: 381176
+Tamanho em memória: 83.00 MB
+
+COLUNAS:
+------------------------------------------------------------
+  anoExercicio: int64 (0 nulos)
+  dataMovimento: str (0 nulos)
+  codigoOrgao: int64 (0 nulos)
+  nomeOrgao: str (0 nulos)
+  numeroEmpenho: int64 (0 nulos)
+  numeroDocumento: int64 (0 nulos)
+  codigoNatureza: str (0 nulos)
+  codigoFonte: str (0 nulos)
+  cnpjCpfCredor: str (2091 nulos)
+  nomeCredor: str (0 nulos)
+  tipoLiquidacao: str (0 nulos)
+  valorEmpenhado: float64 (0 nulos)
+  valorAnuladoLD: float64 (0 nulos)
+  valorGD: float64 (0 nulos)
+  valorAnulado: float64 (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+        anoExercicio dataMovimento    codigoOrgao                      nomeOrgao  numeroEmpenho  numeroDocumento codigoNatureza codigoFonte       cnpjCpfCredor                  nomeCredor tipoLiquidacao  valorEmpenhado  valorAnuladoLD       valorGD  valorAnulado
+count       381176.0        381176  381176.000000                         381176  381176.000000    381176.000000         381176      381176              379085                      381176         381176    3.811760e+05    3.811760e+05  3.811760e+05  3.811760e+05
+unique           NaN           326            NaN                             98            NaN              NaN             93          44                8755                       45650              2             NaN             NaN           NaN           NaN
+top              NaN    2025-06-18            NaN  SECRETARIA DE ESTADO DA SAUDE            NaN              NaN       33901400       50000  06.121.067/0001-60  PBPREV PARAIBA PREVIDENCIA             11             NaN             NaN           NaN           NaN
+freq             NaN          4851            NaN                          52515            NaN              NaN          89714      238819                4464                        4464         372214             NaN             NaN           NaN           NaN
+mean          2025.0           NaN  287197.399225                            NaN    7430.674872     10412.817197            NaN         NaN                 NaN                         NaN            NaN    6.821446e+04    8.658213e+03  2.262321e+03  1.092053e+04
+std              0.0           NaN  145047.484406                            NaN    9691.548317     12160.871962            NaN         NaN                 NaN                         NaN            NaN    1.336669e+06    3.785993e+05  1.854337e+05  4.215740e+05
+min           2025.0           NaN   10001.000000                            NaN       1.000000         1.000000            NaN         NaN                 NaN                         NaN            NaN   -7.026429e+07    0.000000e+00  0.000000e+00  0.000000e+00
+25%           2025.0           NaN  220001.000000                            NaN    1083.000000      1548.000000            NaN         NaN                 NaN                         NaN            NaN    2.704300e+02    0.000000e+00  0.000000e+00  0.000000e+00
+50%           2025.0           NaN  270001.000000                            NaN    3476.000000      4907.000000            NaN         NaN                 NaN                         NaN            NaN    1.286800e+03    0.000000e+00  0.000000e+00  0.000000e+00
+75%           2025.0           NaN  330101.000000                            NaN    8957.000000     15712.250000            NaN         NaN                 NaN                         NaN            NaN    5.990830e+03    0.000000e+00  0.000000e+00  0.000000e+00
+max           2025.0           NaN  910001.000000                            NaN   42232.000000     52682.000000            NaN         NaN                 NaN                         NaN            NaN    2.001264e+08    7.026429e+07  5.852561e+07  7.026429e+07
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!

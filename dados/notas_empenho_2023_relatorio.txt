@@ -1,0 +1,86 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - NOTAS DE EMPENHO
+============================================================
+
+Data/Hora: 2026-09-11 21:36:23
+Total de registros: 283311
+Tamanho em memória: 328.90 MB
+
+COLUNAS:
+------------------------------------------------------------
+  ano: int64 (0 nulos)
+  mes: int64 (0 nulos)
+  tipoPoder: str (0 nulos)
+  codigoOrgao: int64 (0 nulos)
+  nomeOrgao: str (0 nulos)
+  codigoUnidade: str (0 nulos)
+  numeroEmpenho: int64 (0 nulos)
+  dataEmpenho: str (0 nulos)
+  numeroEmenda: str (282735 nulos)
+  tipoNotaEmpenho: str (0 nulos)
+  descricaoTipo: str (0 nulos)
+  descricaoEmpenho: str (0 nulos)
+  codigoTipoCredito: str (0 nulos)
+  tipoCredito: str (0 nulos)
+  dataSaida: str (191947 nulos)
+  dataRetorno: str (191947 nulos)
+  destinoDiaria: str (189791 nulos)
+  nomeCredor: str (0 nulos)
+  cpfCnpj: str (0 nulos)
+  codigoGrupoFinanceiro: str (0 nulos)
+  descricaoGrupoFinanceiro: str (0 nulos)
+  registroCGE: str (263484 nulos)
+  codigoLicitacao: float64 (135877 nulos)
+  descricaoLicitacao: str (135877 nulos)
+  processo: str (0 nulos)
+  contrato: str (0 nulos)
+  numeroProcessoCompras: str (282889 nulos)
+  codigoElemento: str (0 nulos)
+  nomeElemento: str (63 nulos)
+  codigoNatureza: str (0 nulos)
+  nomeNatureza: str (0 nulos)
+  codigoItemDespesa: int64 (0 nulos)
+  descricaoItem: str (0 nulos)
+  codigoFonteRecurso: str (0 nulos)
+  codigoFuncao: str (0 nulos)
+  nomeFuncao: str (0 nulos)
+  codigoSubfuncao: str (0 nulos)
+  nomeSubfuncao: str (0 nulos)
+  codigoPrograma: str (0 nulos)
+  nomePrograma: str (0 nulos)
+  codigoAcao: str (0 nulos)
+  nomeAcao: str (0 nulos)
+  codigoFinalidade: str (152744 nulos)
+  nomeFinalidade: str (152744 nulos)
+  codigoSituacaoNE: str (0 nulos)
+  nomeSituacaoNE: str (0 nulos)
+  codigoMunicipio: str (0 nulos)
+  nomeMunicipio: str (0 nulos)
+  ufMunicipio: str (0 nulos)
+  valorEmpenhado: float64 (0 nulos)
+  valorCalculado: float64 (0 nulos)
+  valorSuplementado: float64 (17256 nulos)
+  valorLiquidado: float64 (28334 nulos)
+  valorAnulado: float64 (0 nulos)
+  valorPago: float64 (31322 nulos)
+  valorPagamentoAnulado: float64 (278295 nulos)
+  valorDespesa: float64 (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+             ano            mes        tipoPoder    codigoOrgao                      nomeOrgao codigoUnidade  numeroEmpenho dataEmpenho numeroEmenda tipoNotaEmpenho descricaoTipo                                                                                                                descricaoEmpenho codigoTipoCredito tipoCredito   dataSaida dataRetorno         destinoDiaria          nomeCredor         cpfCnpj codigoGrupoFinanceiro          descricaoGrupoFinanceiro registroCGE  codigoLicitacao   descricaoLicitacao              processo     contrato                     numeroProcessoCompras codigoElemento     nomeElemento codigoNatureza     nomeNatureza  codigoItemDespesa      descricaoItem codigoFonteRecurso codigoFuncao nomeFuncao codigoSubfuncao        nomeSubfuncao codigoPrograma                                          nomePrograma codigoAcao                                                                          nomeAcao codigoFinalidade nomeFinalidade codigoSituacaoNE                    nomeSituacaoNE codigoMunicipio nomeMunicipio ufMunicipio  valorEmpenhado  valorCalculado  valorSuplementado  valorLiquidado  valorAnulado     valorPago  valorPagamentoAnulado  valorDespesa
+count   283311.0  283311.000000           283311  283311.000000                         283311        283311  283311.000000      283311          576          283311        283311                                                                                                                          283311            283311      283311       91364       91364                 93520              283311          283311                283311                            283311       19827    147434.000000               147434                283311       283311                                       422         283311           283248         283311           283311      283311.000000             283311             283311       283311     283311          283311               283311         283311                                                283311     283311                                                                            283311           130567         130567           283311                            283311          283311        283311      283311    2.833110e+05    2.833110e+05       2.660550e+05    2.549770e+05  2.833110e+05  2.519890e+05           5.016000e+03  2.833110e+05
+unique       NaN            NaN                5            NaN                             98           128            NaN         320          444               4             4                                                                                                                          167987                 2           2         389         392                  8771               38669            8484                    93                                93        3844              NaN                   17                 94467        11532                                       137             46               45             92               67                NaN                439                 45           26         26              69                   69             26                                                    26        541                                                                               531             1328           1322                6                                 6             223           223           1             NaN             NaN                NaN             NaN           NaN           NaN                    NaN           NaN
+top          NaN            NaN  PODER EXECUTIVO            NaN  SECRETARIA DE ESTADO DA SAUDE         25101            NaN  2023-12-07         0471              11     PRINCIPAL  IMPORTANCIA EMPENHADA EM FAVORDO CREDOR ACIMA, PARA FAZER   FACE COM PAGAMENTO DE DIARIAS,CONFORME MAPA DE CONCESSAO    ANEXO.                 1   Ordinário  2023-06-11  2023-06-29  CAMPINA GRANDE        BANCO DO BRASIL SA  00000000001163                350000  Outras Despesas Correntes-350000  21011265.0              NaN  DISPENSA - SERVICOS  SN                    SN           25.213.000514.2022                                   14  DIÁRIAS - CIVIL       33901400  DIÁRIAS - CIVIL                NaN  DIARIAS NO ESTADO              50000           10      SAÚDE             122  ADMINISTRACAO GERAL           5046  Programa de Gestao e Manutencao e Servicos ao Estado       4216  Manutencao de Servicos Administrativos                                               999999300001        CUSTEIO                1  INTERNO(PAGO PELO PROPRIO ÓRGÃO)          250750   JOAO PESSOA          PB             NaN             NaN                NaN             NaN           NaN           NaN                    NaN           NaN
+freq         NaN            NaN           250217            NaN                          41090         40455            NaN        4901           15          266055        266055                                                                                                                            3082            283288      283288         807         812                  4369                6196            6186                123175                            123175         638              NaN               110662                 19678        60379                                        27          74680            74680          70628            70628                NaN              75132             138964        45822      45822           87842                87842          86479                                                 86479      52273                                                                             52273            45677          45677           252428                            252428          177303        177303      283311             NaN             NaN                NaN             NaN           NaN           NaN                    NaN           NaN
+mean      2023.0       7.258126              NaN  281319.973196                            NaN           NaN    7048.705356         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         4.213445                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN          23.254349                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    7.578707e+04    6.620148e+04       2.775703e+03    7.128318e+04 -1.451504e+03  7.162197e+04          -8.198305e+04  6.474998e+04
+std          0.0       3.202817              NaN  153078.974021                            NaN           NaN    8982.593767         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         0.871620                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN          34.294217                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    1.047304e+06    1.047954e+06       1.667224e+05    1.048071e+06  1.231872e+05  1.052358e+06           9.223204e+05  1.038696e+06
+min       2023.0       1.000000              NaN   10001.000000                            NaN           NaN       1.000000         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         1.000000                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN           1.000000                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    1.000000e-02   -4.876148e+07       0.000000e+00    0.000000e+00 -4.444301e+07  1.000000e-02          -4.444301e+07 -4.876148e+07
+25%       2023.0       5.000000              NaN  220001.000000                            NaN           NaN    1049.000000         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         4.000000                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN           1.000000                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    2.072700e+02    1.494350e+02       0.000000e+00    1.851000e+02  0.000000e+00  1.851100e+02          -7.392450e+03  1.480900e+02
+50%       2023.0       7.000000              NaN  260001.000000                            NaN           NaN    3117.000000         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         4.000000                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN           2.000000                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    1.000000e+03    8.272800e+02       0.000000e+00    8.555700e+02  0.000000e+00  8.792100e+02          -1.598000e+03  8.000000e+02
+75%       2023.0      10.000000              NaN  310301.000000                            NaN           NaN    9604.500000         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN         4.000000                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN          36.000000                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    6.594540e+03    5.901950e+03       0.000000e+00    5.705000e+03  0.000000e+00  5.760000e+03          -3.600000e+02  5.617995e+03
+max       2023.0      12.000000              NaN  910001.000000                            NaN           NaN   41090.000000         NaN          NaN             NaN           NaN                                                                                                                             NaN               NaN         NaN         NaN         NaN                   NaN                 NaN             NaN                   NaN                               NaN         NaN        18.000000                  NaN                   NaN          NaN                                       NaN            NaN              NaN            NaN              NaN          99.000000                NaN                NaN          NaN        NaN             NaN                  NaN            NaN                                                   NaN        NaN                                                                               NaN              NaN            NaN              NaN                               NaN             NaN           NaN         NaN    7.000000e+07    7.000000e+07       2.944342e+07    7.000000e+07  0.000000e+00  7.000000e+07          -1.000000e-02  7.000000e+07
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!

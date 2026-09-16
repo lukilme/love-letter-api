@@ -30,3 +30,4 @@ Thumbs.db
 *.key
 .venv
 *.csv
+*.duckdb
