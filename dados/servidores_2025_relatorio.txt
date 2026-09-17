@@ -2,9 +2,9 @@
 RELATÓRIO DE EXTRAÇÃO - SERVIDORES
 ============================================================
 
-Data/Hora: 2026-09-12 12:40:02
+Data/Hora: 2026-09-16 10:06:54
 Total de registros: 1200
-Tamanho em memória: 0.54 MB
+Tamanho em memória: 0.53 MB
 
 COLUNAS:
 ------------------------------------------------------------
@@ -24,7 +24,7 @@ COLUNAS:
   regimeContratual: str (0 nulos)
   cargaHorariaServidor: str (0 nulos)
   escolaridadeMinimaCargo: str (0 nulos)
-  cnpjOrgao: str (2 nulos)
+  cnpjOrgao: str (1176 nulos)
   orgaoLotacao: str (0 nulos)
   nomeUnidadeTrabalho: str (0 nulos)
   siglaPoder: str (0 nulos)
@@ -42,10 +42,10 @@ COLUNAS:
 ESTATÍSTICAS:
 ------------------------------------------------------------
         anoExercicio  mesReferencia        periodo           nomeServidor     cpfServidor matricula dataAdmissao       sexo deficienteFisico         administracao      tipoCargo  nomeCargo situacaoServidor regimeContratual cargaHorariaServidor escolaridadeMinimaCargo       cnpjOrgao                  orgaoLotacao nomeUnidadeTrabalho siglaPoder nomeOrgaoDisposicao  vantagemFixa  vantagemVariavel  valorRedutor     valorBruto  valorPrevidenciario       valorIr  descontoObrigatorio  valorDesconto   valorLiquido
-count         1200.0    1200.000000    1200.000000                   1200            1200      1200         1200       1200             1200                  1200           1200       1200             1200             1200                 1200                    1200            1198                          1200                1200       1200                 129   1200.000000       1200.000000   1200.000000    1200.000000          1200.000000   1200.000000          1200.000000    1200.000000    1200.000000
-unique           NaN            NaN            NaN                    103             103       115           95          2                1                     2             13         52                3                5                    2                       3              18                            19                  77          2                  10           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
-top              NaN            NaN            NaN  ABDIAS FREIRE BARRETO  ***.435.414-**   9255982   2019-01-01  MASCULINO              NÃO  ADMINISTRAÇÃO DIRETA  EFETIVO ATIVO  PROFESSOR            ATIVO      ESTATUTARIO    40 HORAS SEMANAIS                SUPERIOR  06121067000160  PARAIBA PREVIDENCIA - PBPREV  PBPREV APOSENTADOS        EXE                 DER           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
-freq             NaN            NaN            NaN                     24              24        12           70        981             1200                  1032            359        126              754              818                 1033                     756             422                           422                 251       1032                  48           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+count         1200.0    1200.000000    1200.000000                   1200            1200      1200         1200       1200             1200                  1200           1200       1200             1200             1200                 1200                    1200              24                          1200                1200       1200                 129   1200.000000       1200.000000   1200.000000    1200.000000          1200.000000   1200.000000          1200.000000    1200.000000    1200.000000
+unique           NaN            NaN            NaN                    103             103       115           95          2                1                     2             13         52                3                5                    2                       3               2                            19                  77          2                  10           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+top              NaN            NaN            NaN  ABDIAS FREIRE BARRETO  ***.435.414-**   9255982   2019-01-01  MASCULINO              NÃO  ADMINISTRAÇÃO DIRETA  EFETIVO ATIVO  PROFESSOR            ATIVO      ESTATUTARIO    40 HORAS SEMANAIS                SUPERIOR  38111778000140  PARAIBA PREVIDENCIA - PBPREV  PBPREV APOSENTADOS        EXE                 DER           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
+freq             NaN            NaN            NaN                     24              24        12           70        981             1200                  1032            359        126              754              818                 1033                     756              22                           422                 251       1032                  48           NaN               NaN           NaN            NaN                  NaN           NaN                  NaN            NaN            NaN
 mean          2025.0       6.500000  202506.500000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   7193.917567       2111.094067      9.405350    9305.011633           586.020942    996.570358          1582.591300    1591.996650    7713.014983
 std              0.0       3.453492       3.453492                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN   8059.370033       5582.698558    134.084463    9727.298109           865.387085   2110.511398          2691.424508    2720.691849    7384.736913
 min           2025.0       1.000000  202501.000000                    NaN             NaN       NaN          NaN        NaN              NaN                   NaN            NaN        NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN      0.000000          0.000000      0.000000     182.150000             0.000000      0.000000             0.000000       0.000000     182.150000
