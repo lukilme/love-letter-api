@@ -2,7 +2,7 @@
 RELATÓRIO DE EXTRAÇÃO - LIQUIDACOES
 ============================================================
 
-Data/Hora: 2026-09-16 10:06:15
+Data/Hora: 2026-09-18 21:00:41
 Total de registros: 381176
 Tamanho em memória: 83.00 MB
 

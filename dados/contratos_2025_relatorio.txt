@@ -2,7 +2,7 @@
 RELATÓRIO DE EXTRAÇÃO - CONTRATOS
 ============================================================
 
-Data/Hora: 2026-09-16 10:06:22
+Data/Hora: 2026-09-18 21:15:00
 Total de registros: 7480
 Tamanho em memória: 6.20 MB
 

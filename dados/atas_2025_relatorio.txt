@@ -2,7 +2,7 @@
 RELATÓRIO DE EXTRAÇÃO - ATAS
 ============================================================
 
-Data/Hora: 2026-09-16 09:49:03
+Data/Hora: 2026-09-18 19:04:32
 Total de registros: 2500
 Tamanho em memória: 0.68 MB
 

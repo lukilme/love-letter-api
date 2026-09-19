@@ -2,7 +2,7 @@
 RELATÓRIO DE EXTRAÇÃO - NOTAS_EMPENHO
 ============================================================
 
-Data/Hora: 2026-09-16 10:00:32
+Data/Hora: 2026-09-18 19:13:19
 Total de registros: 328248
 Tamanho em memória: 386.77 MB
 

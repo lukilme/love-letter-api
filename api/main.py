@@ -42,7 +42,6 @@ class SEADParaibaCSV:
 
         if isinstance(dados_json, dict):
 
-            # Primeiro tenta chaves comuns em APIs paginadas
             chaves_comuns = ["data", "dados", "results", "items", "servidores"]
 
             for chave in chaves_comuns:
@@ -52,7 +51,6 @@ class SEADParaibaCSV:
                     if isinstance(dados_json[chave], list):
                         return dados_json[chave]
 
-            # Caso não encontre, procura qualquer lista
             for chave, valor in dados_json.items():
 
                 if isinstance(valor, list):
@@ -119,8 +117,6 @@ class SEADParaibaCSV:
 
         print("\nDescobrindo todas as colunas...")
 
-        # Descobre TODAS as chaves existentes
-        # em todos os registros
         cabecalhos = set()
 
         for servidor in servidores:
@@ -157,10 +153,6 @@ class SEADParaibaCSV:
 
         print("=" * 60)
 
-
-# --------------------------------------------------
-# EXECUÇÃO
-# --------------------------------------------------
 
 if __name__ == "__main__":
 
